@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dream City</title>
+    <style>
+      * {
+        margin: 1px;
+        padding: 0 1px;
+        box-sizing: border-box;
+      }
+
+      /* Set a background color and font for the entire page */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Style the header section */
+      header {
+        background-color: #007bff;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+      }
+
+      header h1 {
+        font-size: 2.5em;
+      }
+
+      header p {
+        font-size: 1.2em;
+      }
+
+      /* Style the navigation menu */
+      nav ul {
+        background-color: #333;
+        list-style: none;
+        text-align: center;
+        padding: 10px;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      /* Style the hr element */
+      hr {
+        border: 1px solid #ccc;
+        margin: 20px 0;
+      }
+
+      /* Style the main content sections */
+      section {
+        padding: 20px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      section h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+
+      section img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Style the table */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid #ccc;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+
+      /* Style the form elements */
+      form {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      form input[type="text"],
+      form input[type="number"],
+      form input[type="email"],
+      form select,
+      form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      form input[type="checkbox"] {
+        margin-right: 5px;
+      }
+
+      form input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+
+      /* Style the quotes section */
+      #quotes p {
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+
+      #quotes span {
+        font-weight: bold;
+        color: #007bff;
+      }
+
+      /* Style the contact section */
+      #contact address {
+        font-style: italic;
+        margin-top: 10px;
+      }
+
+      #contact a {
+        color: #007bff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>Atlantica</h1>
+        <p>The City of Ocean Dream!</p>
+      </header>
+    </section>
+
+    <nav>
+      <ul>
+        <a href="#description">City Description |</a>
+        <a href="#attractions">Attractions |</a>
+        <a href="#statistics">City Statistics |</a>
+        <a href="#feedback">Citizen Feedback |</a>
+        <a href="#quotes">Quotes |</a>
+        <a href="#contact">Contact |</a>
+      </ul>
+    </nav>
+    <hr />
+    <section id="description">
+      <h2>Discover Atlantica</h2>
+      <img
+        src="https://images.unsplash.com/photo-1536868313473-7480e7c169f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1451&q=80"
+        alt="Sea beach"
+        width="500"
+        height="333"
+      />
+      <p>
+        Atlantica, the city where the horizon merges the sky with the ocean,
+        offering dreams a canvas as vast as the sea
+      </p>
+    </section>
+    <hr />
+    <section id="attractions">
+      <h2>Attractions</h2>
+
+      <ol>
+        <li>Atlantis Tower</li>
+        <li>Deep Sea Museum</li>
+        <li>The Occeanic Bridge</li>
+      </ol>
+
+      <h3>Local Favourites</h3>
+
+      <ul>
+        <li>Merman's Street</li>
+        <li>Neptune's Dinner</li>
+        <li>
+          Atlantica Beaches
+          <ul style="list-style-type: circle">
+            <li>North Beach</li>
+            <li>Reef Bay</li>
+            <li>Mermaid Cove</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <hr />
+    <section id="statistics">
+      <h2>City Statistics</h2>
+
+      <table border="1px">
+        <thead>
+          <tr>
+            <th>Attribute</th>
+            <th>value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Population</td>
+            <td>5 Million</td>
+          </tr>
+          <tr>
+            <td>Landmarks</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Parks</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Schools</td>
+            <td>120</td>
+          </tr>
+          <tr>
+            <td>Beaches</td>
+            <td>7</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr />
+    <section id="feedback">
+      <h2>Feedback</h2>
+
+      <form method="post">
+        <fieldset>
+          <label for="name">Name*:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+          <label for="email">Email*:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          /><br /><br />
+          <label for="age">Age:*</label>
+          <input type="number" id="age" required /><br /><br />
+          <label for="places">Favourite Attraction:</label>
+          <select name="places" id="places">
+            <option value="" disabled selected>
+              ---Choose your favourite attraction---
+            </option>
+            <option value="Atlantis Tower">Atlantis Tower</option>
+            <option value="Deep Sea Museum">Deep Sea Museum</option>
+            <option value="The Occeanic Bridge">The Occeanic Bridge</option>
+            <option value="Merman's Street">Merman's Street</option>
+            <option value="Neptune's Dinner">Neptune's Dinner</option>
+            <option value="Atlantica Beaches">Atlantica Beaches</option></select
+          ><br /><br />
+          <hr />
+          <label for="text_area">Comments:</label>
+          <textarea
+            id="text_area"
+            name="text_area"
+            placeholder="Write comments here"
+          ></textarea
+          ><br /><br />
+          <label for="subscribe">Subscribe to Newsletter:</label>
+          <input
+            type="checkbox"
+            id="subscribe"
+            name="subscribe"
+            value="yes"
+          /><br />
+
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </section>
+    <section id="quotes">
+      <h2>Quotes from Citizens</h2>
+      <p>
+        <span>"Atlantica is a true paradise for nature lovers,"</span> says
+        John.
+      </p>
+      <p>
+        <span>"I fell in love with the city's rich history,"</span> shares
+        Sarah.
+      </p>
+    </section>
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <address>
+        <p><em>Atlantica Tourism Office</em></p>
+        <p>123 Main Street, Atlantica</p>
+        <p>
+          Email:
+          <a href="mailto:tourism@atlantica.com">tourism@atlantica.com</a>
+        </p>
+      </address>
+    </section>
+    <footer>
+      <p>&copy; 2023 Atlantica Tourism. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
